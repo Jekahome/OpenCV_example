@@ -78,10 +78,11 @@
 
 ### [Examples code]
 
-[Examples code](:https://www.programcreek.com/python/example/89361/cv2.Canny)
+[Examples code](https://www.programcreek.com/python/example/89361/cv2.Canny)
 
-### Use docker image `jekshmek/opencv_rep` from `less/` dir:
+### Use docker image [jekshmek/opencv_rep] from `less/` dir:
 
+[jekshmek/opencv_rep]:(https://github.com/Jekahome/Docker_OpenCV)
 ```
 Create mount:
 $ docker volume create \
