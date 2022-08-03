@@ -51,6 +51,14 @@ cv2.BFMatcher() Затем нам необходимо сопоставить(в
 https://habr.com/ru/post/547218/
 
 ------------------------------------------------------------------------------------------------------
+### Нейросети. BeyondCurriculum
+https://www.youtube.com/playlist?list=PLVFGVo0DNh5cLN1UBTT4yQ-cABFEi8Q8x
+
+### YOLOv4 BeyondCurriculum
+
+https://www.youtube.com/watch?v=m-NStbf5SpA&list=PLVFGVo0DNh5ek970Foh_9Dw2Anx2ps8it&ab_channel=BeyondCurriculum
+
+------------------------------------------------------------------------------------------------------
 
 ### Deep learning freeCodeCamp.org
 TODO: Слабый процент распознавания

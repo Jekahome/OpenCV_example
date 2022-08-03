@@ -6,25 +6,23 @@
 
 [docs.opencv.org 4.5.5](https://docs.opencv.org/4.5.5/d6/d00/tutorial_py_root.html)
 
+[OpenCV tutorial](https://docs.opencv.org/4.5.5/d9/df8/tutorial_root.html)
 
-
-### Уроки
+### Базовые возможности OpenCV
 
 [1. OpenCV. Beyond Robotics](https://www.youtube.com/playlist?list=PLVFGVo0DNh5duhps6KsiCQIoObyzcM2Cs)
 
-[Beyond Robotics программа](https://robotics.bc-pf.org/)
-
 [2. OpenCV Course - Full Tutorial with Python](https://www.youtube.com/watch?v=oXlwWbU8l2o&t=252s)
- 
+
+### Дополнительный материал OpenCV
+
 [Tensorflow and OpenCV](https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32)
 
 [Increasing webcam FPS with Python and OpenCV](https://pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/)
 
 [Tensorflow, OpenCV and Docker](https://towardsdatascience.com/real-time-and-video-processing-object-detection-using-tensorflow-opencv-and-docker-2be1694726e5)
 
-
-[OpenCV tutorial](https://docs.opencv.org/4.5.5/d9/df8/tutorial_root.html)
-
+ 
 [robocraft.ru C++](https://robocraft.ru/opencv)
 
 [OpenCV tutorial pyimagesearch.com](https://pyimagesearch.com/category/opencv/page/2/)

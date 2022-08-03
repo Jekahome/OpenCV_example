@@ -360,12 +360,8 @@ def matrix_operations():
         print(exc_type, fname, exc_tb.tb_lineno)       
 # ==========================================================================================================  
 '''
-<<<<<<< HEAD
 Применение маски
 https://www.youtube.com/watch?v=oXlwWbU8l2o&list=PLuudOZcE9EgnCN8cgw9FcPeQnjP1axXP_&index=4&t=176s&ab_channel=freeCodeCamp.org
-=======
-
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
 '''
 def bitwise_operations():
     img_circle_1 = numpy.zeros((50,50,3),numpy.uint8)             
