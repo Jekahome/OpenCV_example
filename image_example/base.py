@@ -98,13 +98,9 @@ def split_merge_example():
     img_NZ_bgr = cv2.imread("/container_data/source/pazl/matrix-sunglasses.jpg",cv2.IMREAD_COLOR)
     b,g,r = cv2.split(img_NZ_bgr)
     b = b+50  # усилить синий
-<<<<<<< HEAD
     imgMerged = cv2.merge((b,g,r)) 
     #imgMerged = cv2.merge((r,g,b))  # соберём сразу RGB 
-=======
-    imgMerged = cv2.merge((r,g,b))  # соберём сразу RGB 
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
-    
+
     key = cv2.waitKey(0) & 0xFF
     if key == 27 or key == ord( "q" ): # exit on ESC break 
         cv2.destroyAllWindows() 
@@ -160,7 +156,7 @@ def floodFill_example():
         plt.figure(figsize=[15,8]) 
         for i in range(int(len(titles))):
             # subplot(nrows, ncols, index, **kwargs)
-            plt.subplot(2,3,i+1),plt.imshow(images[i],'gray')
+            plt.subplot(2,3,i+1),plt.imshow(images[i],cmap='gray')
             plt.title(titles[i])
             plt.xticks([]),plt.yticks([])
         plt.savefig('/container_data/source/base/500x500_floodFill.png')   
@@ -388,7 +384,7 @@ def bitwise_operations():
     
     # Наложение маски
     img = cv2.imread("/container_data/source/red_car_small.png",cv2.IMREAD_ANYCOLOR)
-<<<<<<< HEAD
+
     blank = numpy.zeros(img.shape[:2],numpy.uint8)
     mask = cv2.circle(blank.copy(),(img.shape[1]//2,img.shape[0]//2),img.shape[0]//2,[255,255,255],thickness=cv2.FILLED)
     img_masked = cv2.bitwise_and(img,img,mask=mask) # нахождение пересекающейся области т.е. белый круг будет заменен картинкой
@@ -403,14 +399,7 @@ def bitwise_operations():
     # plot
     img_masked = cv2.cvtColor(img_masked, cv2.COLOR_BGRA2RGB)
     img_masked2 = cv2.cvtColor(img_masked2, cv2.COLOR_BGRA2RGB)
-=======
-    mask = numpy.zeros(img.shape[:2],numpy.uint8)
-    cv2.circle(mask,(img.shape[1]//2,img.shape[0]//2),img.shape[0]//2,[255,255,255],thickness=cv2.FILLED)
-    img_mask = cv2.bitwise_and(img,img,mask=mask) 
-    
-    # plot
-    img_mask = cv2.cvtColor(img_mask, cv2.COLOR_BGRA2RGB)
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
+
     titles = ['circle 1',
               'circle 2', 
               '1 and 2',
@@ -418,11 +407,9 @@ def bitwise_operations():
               '1 xor 2',
               'not 1', 
               'not 2',
-<<<<<<< HEAD
-              'наложение маски','сложная маска']
-=======
-              'наложение маски']
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
+              'наложение маски',
+              'сложная маска']
+
     images = [img_circle_1,
               img_circle_2,  
               img_and,
@@ -430,25 +417,17 @@ def bitwise_operations():
               img_xor,
               img_not1,
               img_not2,
-<<<<<<< HEAD
-              img_masked,img_masked2]
+              img_masked,
+              img_masked2]
     plt.figure(figsize=[15,8])
     for i in range(int(len(images))):
         # subplot(nrows, ncols, index, **kwargs)
         plt.subplot(3,4,i+1),plt.imshow(images[i],'gray')
-=======
-              img_mask]
-    plt.figure(figsize=[15,8])
-    for i in range(int(len(images))):
-        # subplot(nrows, ncols, index, **kwargs)
-        plt.subplot(2,4,i+1),plt.imshow(images[i],'gray')
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
         plt.title(titles[i])
         plt.xticks([]),plt.yticks([])
     plt.savefig('/container_data/source/bitwise_result.png')    
     plt.show()        
             
-<<<<<<< HEAD
 # ==========================================================================================================  
 '''
 Гистограммы позволяют визуализировать распределение интенсивности пикселей
@@ -564,11 +543,6 @@ def histogram():
         
 # ==========================================================================================================  
              
-=======
- # ==========================================================================================================  
-           
-            
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
             
     # ДОБАВИТЬ ПРИМЕР ОПЕРАЦИЙ С КАНАЛАМИ !!!!!!!!
     #cv2.split()  —  разделит многоканальный массив на несколько одноканальных.
@@ -597,30 +571,19 @@ try:
     if False: 
        base_example()
     if False:
-<<<<<<< HEAD
        floodFill_example()    
     if False:
-=======
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
        resize_example()  
     if False:
        getRotationMatrix2D_example() 
     if False:
        matrix_operations()     
-<<<<<<< HEAD
     if True:
        bitwise_operations()       
     if False:
        crop_example()     
     if False:
-       histogram()      
-=======
-    if False:
-       bitwise_operations()       
-    if True:
-       crop_example()     
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
-         
+       histogram()        
 except Exception as e:
     print(e)
     cv2.destroyAllWindows() 
