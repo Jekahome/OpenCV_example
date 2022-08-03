@@ -178,11 +178,7 @@ def canny_edge():
                 eps = 0.03 # точность аппроксимации
                 epsilon = eps*arclen
                 is_closed_circuit = True # замкнутый контур
-<<<<<<< HEAD
                 num_top = cv2.approxPolyDP(cnts_roi,epsilon,is_closed_circuit)# Аппроксимирование (упрощение) области контура
-=======
-                num_top = cv2.approxPolyDP(cnts,epsilon,is_closed_circuit)# Аппроксимирование (упрощение) области контура
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
                 x_c,y_c,w_c,h_c = cv2.boundingRect(num_top)# получить квадрат области
                 cv2.putText(img_1,f"Area={area}",(x_c+10,y_c+(h_c//2)),cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,255),1)
                 cv2.putText(img_1,f"Top={len(num_top)}",(x_c+10,y_c+(h_c//2)+20),cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,255),1)

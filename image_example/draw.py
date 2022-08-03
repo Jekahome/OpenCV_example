@@ -64,10 +64,7 @@ def draw_rectangle():
     color = [0,50,255]
     thickness = 1
    
-<<<<<<< HEAD
     # rectangle мутирует img
-=======
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
     cv2.rectangle(img,(top_w,top_h),(down_w,down_h),color,thickness, cv2.LINE_8)# контур
     cv2.rectangle(img,(12,2),(20,13),(40,40,40),thickness=cv2.FILLED)# заливка
     
@@ -104,13 +101,10 @@ def draw_circle():
     radius = 5
     color = [0,50,255]
     thickness = 1
-<<<<<<< HEAD
+ 
     # circle мутирует img (можно передеать копию img.copy() и забрать из результата его работы преобразованное изображение)
     img = cv2.circle(img.copy(),(centr_y,centr_x),radius,color,thickness, cv2.LINE_8)# контур
-=======
-    
-    cv2.circle(img,(centr_y,centr_x),radius,color,thickness, cv2.LINE_8)# контур
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
+ 
     cv2.circle(img_2,(centr_y,centr_x),radius,color,thickness=cv2.FILLED)# заливка
     
     img = cv2.cvtColor(img, cv2.COLOR_BGRA2RGB)
@@ -121,12 +115,7 @@ def draw_circle():
     for i in range(int(len(images))):
         # subplot(nrows, ncols, index, **kwargs)
         plt.subplot(2,3,i+1),plt.imshow(images[i],'gray')
-<<<<<<< HEAD
         plt.title(titles[i]);plt.xticks([]),plt.yticks([])
-=======
-        plt.title(titles[i])
-        plt.xticks([]),plt.yticks([])
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
     plt.savefig('/container_data/source/draw_circle.png')    
     plt.show()
     
