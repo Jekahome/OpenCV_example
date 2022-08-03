@@ -14,12 +14,8 @@
 
 [Beyond Robotics программа](https://robotics.bc-pf.org/)
 
-<<<<<<< HEAD
 [2. OpenCV Course - Full Tutorial with Python](https://www.youtube.com/watch?v=oXlwWbU8l2o&t=252s)
-
-
-=======
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
+ 
 [Tensorflow and OpenCV](https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32)
 
 [Increasing webcam FPS with Python and OpenCV](https://pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/)

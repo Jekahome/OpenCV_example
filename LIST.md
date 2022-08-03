@@ -3,11 +3,6 @@
 
 С чего начать ?
 Книги и уроки,документация в основном на C++
-<<<<<<< HEAD
-=======
- 
-1 [Гоша дударь](https://www.youtube.com/playlist?list=PL0lO_mIqDDFUAQ2RdAgLp6Tj_fREcxk6T)
->>>>>>> ac03be3047363d1ff75dbd8e9b8973212d3519dc
  
 2 Image Processing (imgproc module) https://docs.opencv.org/4.5.5/d7/da8/tutorial_table_of_content_imgproc.html
 
@@ -54,3 +49,17 @@ dst = cv2.warpAffine(img, M, (cols, rows))
 3  Обнаружения ключевых точек cv2.ORB_create
 cv2.BFMatcher() Затем нам необходимо сопоставить(вычислить расстояние) дискрипторы первого изображения с дискрипторами второго и взять ближайший.
 https://habr.com/ru/post/547218/
+
+------------------------------------------------------------------------------------------------------
+
+### Deep learning freeCodeCamp.org
+TODO: Слабый процент распознавания
+
+video: https://www.youtube.com/watch?v=oXlwWbU8l2o&list=PLuudOZcE9EgnCN8cgw9FcPeQnjP1axXP_&index=7&t=176s
+code: https://github.com/jasmcaus/opencv-course/blob/master/Section%20%234%20-%20Capstone/simpsons.py
+kaggle: https://www.kaggle.com/
+
+Add video freeCodeCamp.org:
+https://www.youtube.com/watch?v=tPYj3fFJGjk&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
+https://www.youtube.com/watch?v=vo_fUOk-IKk&list=PLWKjhJtqVAbm3T2Eq1_KgloC7ogdXxdRa
+https://www.youtube.com/watch?v=5ioMqzMRFgM&list=PLWKjhJtqVAbm5dir5TLEy2aZQMG7cHEZp
