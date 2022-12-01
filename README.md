@@ -16,6 +16,8 @@
 
 ### Дополнительный материал OpenCV
 
+[spmallick/learnopencv](https://github.com/spmallick/learnopencv/blob/master/README.md)
+
 [Tensorflow and OpenCV](https://towardsdatascience.com/building-a-real-time-object-recognition-app-with-tensorflow-and-opencv-b7a2b4ebdc32)
 
 [Increasing webcam FPS with Python and OpenCV](https://pyimagesearch.com/2015/12/21/increasing-webcam-fps-with-python-and-opencv/)
